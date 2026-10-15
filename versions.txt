@@ -1,0 +1,6 @@
+LATEST=-
+# One UI port (selene) version list, read by updater\check-update.bat
+# from the flash_all*.bat scripts of the ROM package.
+#
+# version|super_md5|update_url|update_sha256|next_version
+# The latest version's update fields are "-".
