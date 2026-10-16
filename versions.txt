@@ -4,4 +4,4 @@ LATEST=20261016
 #
 # version|super_md5|update_url|update_sha256|next_version
 # The latest version has "-" in its update fields.
-20261016|cb75c82bb25a2dc94402d011b079b25e|-|-|-
+20261016|44a9f5889addd1ba34b4506e4c505a26|-|-|-
