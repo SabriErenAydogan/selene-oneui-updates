@@ -32,5 +32,6 @@
         "tr": "- Aramalarda ahize ve hoparlor sesi duzeltildi (callfix)\n- Telefon kapaliyken sarj ekrani\n- Yuksek parlaklik yalnizca en ust kademede\n- Ucuncu taraf uygulamalarin depolama izinleri duzeltildi (Android/data, Android/obb)\n- USB dosya aktarimi (MTP) elle islem gerektirmiyor"
       }
     }
-  ]
+  ],
+  "telemetry": "https://sabrinium-telemetry.sabrinium.workers.dev/v1/event"
 }
