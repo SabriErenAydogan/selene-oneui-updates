@@ -1,8 +1,23 @@
 {
   "schema": 1,
   "device": "selene",
-  "latest": "20261019",
+  "latest": "20261024",
   "builds": [
+    {
+      "version": "20261024",
+      "name": "OTA test",
+      "type": "t",
+      "size": 3471598885,
+      "sha256": "952366a92cbd5fa23a6121b1095e47c30d5dda2eacf7b92627473004f9432707",
+      "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/20261024/SabriniumROM-20261024-selene.zip",
+      "min_version": "20261007",
+      "firmware_required": false,
+      "wipe_required": false,
+      "changelog": {
+        "en": "- OTA test build\n- Fixed: the in-call audio fix (callfix) now runs from the ROM itself\n- Fixed: the installed version is reported correctly; the same update is no longer offered again",
+        "tr": "- OTA test sürümü\n- Düzeltme: aramada ses düzeltmesi (callfix) artık doğrudan ROM'dan çalışıyor\n- Düzeltme: kurulu sürüm doğru bildiriliyor; aynı güncelleme tekrar önerilmiyor"
+      }
+    },
     {
       "version": "20261019",
       "name": "RC3",
