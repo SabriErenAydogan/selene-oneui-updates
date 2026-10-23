@@ -6,8 +6,8 @@
     {
       "version": "20261019",
       "name": "RC3",
-      "size": 3471608810,
-      "sha256": "db7a5ccb97a53fe57173304ef06ad699fdbd72f06aa0f8a1f6cff5e8a85a59f0",
+      "size": 3471609848,
+      "sha256": "873bc146d3c285b53d7da7c299cbb19d85ea3ee95d2d9d56a9c692e0f2ed5ea7",
       "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/20261019/SabriniumROM-20261019-selene.zip",
       "min_version": "20261007",
       "firmware_required": false,
