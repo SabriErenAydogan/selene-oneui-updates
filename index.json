@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "device": "selene",
+  "latest": "20261019",
+  "builds": [
+    {
+      "version": "20261019",
+      "name": "RC3",
+      "size": 3471608810,
+      "sha256": "db7a5ccb97a53fe57173304ef06ad699fdbd72f06aa0f8a1f6cff5e8a85a59f0",
+      "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/20261019/SabriniumROM-20261019-selene.zip",
+      "min_version": "20261007",
+      "firmware_required": false,
+      "wipe_required": false,
+      "changelog": {
+        "en": "- Earpiece and speaker audio during calls fixed (callfix)\n- Offline charging screen when the phone is powered off\n- High brightness mode only at maximum slider\n- Storage permissions for third-party apps fixed (Android/data, Android/obb)\n- USB file transfer (MTP) works without manual steps",
+        "tr": "- Aramalarda ahize ve hoparlor sesi duzeltildi (callfix)\n- Telefon kapaliyken sarj ekrani\n- Yuksek parlaklik yalnizca en ust kademede\n- Ucuncu taraf uygulamalarin depolama izinleri duzeltildi (Android/data, Android/obb)\n- USB dosya aktarimi (MTP) elle islem gerektirmiyor"
+      }
+    }
+  ]
+}
