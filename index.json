@@ -1,8 +1,23 @@
 {
   "schema": 1,
   "device": "selene",
-  "latest": "20261024",
+  "latest": "2026102502",
   "builds": [
+    {
+      "version": "2026102502",
+      "name": "Charging fix",
+      "type": "r",
+      "size": 46040632,
+      "sha256": "222a8675e8f0cd9c20c57f0f7e1406c156dc259b497d09701db3724f1d61ab4b",
+      "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/2026102502/SabriniumROM-2026102502-selene.zip",
+      "min_version": "2026102403",
+      "firmware_required": false,
+      "wipe_required": false,
+      "changelog": {
+        "en": "- Quick charge (QC) chargers, such as 18W chargers, charge the phone again. Before this update the phone did not charge on them at all; only a PC or a plain 5V charger worked\n- Charging starts as soon as you plug in; the 20-second wait before charging is gone\n- Quick charging runs at a moderate speed for now to keep the phone cool, while the battery temperature reading is being fixed. Full speed returns in a later update\n- Small update: only the kernel is replaced, your apps and data stay untouched",
+        "tr": "- 18W gibi hızlı şarj (QC) aletleri telefonu yeniden şarj ediyor. Bu güncellemeden önce telefon bu aletlerle hiç şarj olmuyordu; yalnızca bilgisayar ya da düz 5V şarj aleti çalışıyordu\n- Şarj, kabloyu takar takmaz başlıyor; şarj başlamadan önceki 20 saniyelik bekleme kalktı\n- Pil sıcaklığı ölçümü düzeltilene kadar hızlı şarj, telefonu serin tutmak için orta hızda çalışıyor. Tam hız sonraki bir güncellemede geri gelecek\n- Küçük güncelleme: yalnızca kernel değişiyor, uygulamalarınız ve verileriniz olduğu gibi kalıyor"
+      }
+    },
     {
       "version": "20261024",
       "name": "OTA test",
