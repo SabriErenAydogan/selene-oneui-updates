@@ -1,8 +1,23 @@
 {
   "schema": 1,
   "device": "selene",
-  "latest": "2026102502",
+  "latest": "2026102503",
   "builds": [
+    {
+      "version": "2026102503",
+      "name": "Charging fix 2",
+      "type": "r",
+      "size": 46054484,
+      "sha256": "9a9a071e1035fa013f70350ae3a0b522611b3ab86edfed9d59aa5b507539f269",
+      "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/2026102503/SabriniumROM-2026102503-selene.zip",
+      "min_version": "2026102403",
+      "firmware_required": false,
+      "wipe_required": false,
+      "changelog": {
+        "en": "- Charging now works on phones with the second charger chip (SMB1351). Before this update those phones did not charge at all\n- One kernel now supports both charger chips, so the same update is safe for every phone\n- Small update: only the kernel is replaced, your apps and data stay untouched",
+        "tr": "- İkinci şarj çipine (SMB1351) sahip telefonlarda şarj artık çalışıyor. Bu güncellemeden önce o telefonlar hiç şarj olmuyordu\n- Tek kernel artık iki şarj çipini de destekliyor; aynı güncelleme her telefon için güvenli\n- Küçük güncelleme: yalnızca kernel değişiyor, uygulamalarınız ve verileriniz olduğu gibi kalıyor"
+      }
+    },
     {
       "version": "2026102502",
       "name": "Charging fix",
@@ -31,20 +46,6 @@
       "changelog": {
         "en": "- OTA test build\n- Fixed: the in-call audio fix (callfix) now runs from the ROM itself\n- Fixed: the installed version is reported correctly; the same update is no longer offered again",
         "tr": "- OTA test sürümü\n- Düzeltme: aramada ses düzeltmesi (callfix) artık doğrudan ROM'dan çalışıyor\n- Düzeltme: kurulu sürüm doğru bildiriliyor; aynı güncelleme tekrar önerilmiyor"
-      }
-    },
-    {
-      "version": "20261019",
-      "name": "RC3",
-      "size": 3471609848,
-      "sha256": "873bc146d3c285b53d7da7c299cbb19d85ea3ee95d2d9d56a9c692e0f2ed5ea7",
-      "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/20261019/SabriniumROM-20261019-selene.zip",
-      "min_version": "20261007",
-      "firmware_required": false,
-      "wipe_required": false,
-      "changelog": {
-        "en": "- Earpiece and speaker audio during calls fixed (callfix)\n- Offline charging screen when the phone is powered off\n- High brightness mode only at maximum slider\n- Storage permissions for third-party apps fixed (Android/data, Android/obb)\n- USB file transfer (MTP) works without manual steps",
-        "tr": "- Aramalarda ahize ve hoparlor sesi duzeltildi (callfix)\n- Telefon kapaliyken sarj ekrani\n- Yuksek parlaklik yalnizca en ust kademede\n- Ucuncu taraf uygulamalarin depolama izinleri duzeltildi (Android/data, Android/obb)\n- USB dosya aktarimi (MTP) elle islem gerektirmiyor"
       }
     }
   ],
