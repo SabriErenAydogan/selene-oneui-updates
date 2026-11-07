@@ -1,8 +1,23 @@
 {
   "schema": 1,
   "device": "selene",
-  "latest": "2026102503",
+  "latest": "2026110501",
   "builds": [
+    {
+      "version": "2026110501",
+      "name": "November Update",
+      "type": "r",
+      "size": 3636469197,
+      "sha256": "b333e4d1ee778d55be99d85c39de8d65e36940d321911f34d7917d8ad01cb032",
+      "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/2026110501/SabriniumROM-2026110501-selene.zip",
+      "min_version": "2026102403",
+      "firmware_required": false,
+      "wipe_required": false,
+      "changelog": {
+        "en": "November Update\n- Performance and stability improvements\n- LSM 4.19 kernel major updates\n- SUSFS supported.\n- Bug fixes:\n  - A Samsung service no longer crashes on every boot\n  - Battery temperature is read correctly\n  - Leftover fingerprint app from another sensor removed\n  - Unused Samsung background services stopped (fewer wakeups, better battery)",
+        "tr": "Kasım Güncellemesi\n- Performans ve kararlılık iyileştirmeleri\n- LSM 4.19 kernel büyük güncellemesi\n- SUSFS destekleniyor.\n- Hata düzeltmeleri:\n  - Bir Samsung servisi artık her açılışta çökmüyor\n  - Pil sıcaklığı doğru okunuyor\n  - Başka bir sensörden kalan parmak izi uygulaması kaldırıldı\n  - Kullanılmayan Samsung arka plan servisleri durduruldu (daha az uyanma, daha iyi pil)"
+      }
+    },
     {
       "version": "2026102503",
       "name": "Charging fix 2",
@@ -31,21 +46,6 @@
       "changelog": {
         "en": "- Quick charge (QC) chargers, such as 18W chargers, charge the phone again. Before this update the phone did not charge on them at all; only a PC or a plain 5V charger worked\n- Charging starts as soon as you plug in; the 20-second wait before charging is gone\n- Quick charging runs at a moderate speed for now to keep the phone cool, while the battery temperature reading is being fixed. Full speed returns in a later update\n- Small update: only the kernel is replaced, your apps and data stay untouched",
         "tr": "- 18W gibi hızlı şarj (QC) aletleri telefonu yeniden şarj ediyor. Bu güncellemeden önce telefon bu aletlerle hiç şarj olmuyordu; yalnızca bilgisayar ya da düz 5V şarj aleti çalışıyordu\n- Şarj, kabloyu takar takmaz başlıyor; şarj başlamadan önceki 20 saniyelik bekleme kalktı\n- Pil sıcaklığı ölçümü düzeltilene kadar hızlı şarj, telefonu serin tutmak için orta hızda çalışıyor. Tam hız sonraki bir güncellemede geri gelecek\n- Küçük güncelleme: yalnızca kernel değişiyor, uygulamalarınız ve verileriniz olduğu gibi kalıyor"
-      }
-    },
-    {
-      "version": "20261024",
-      "name": "OTA test",
-      "type": "t",
-      "size": 3471598885,
-      "sha256": "952366a92cbd5fa23a6121b1095e47c30d5dda2eacf7b92627473004f9432707",
-      "url": "https://huggingface.co/datasets/sabrinium0/sabriniumrom/resolve/main/selene/20261024/SabriniumROM-20261024-selene.zip",
-      "min_version": "20261007",
-      "firmware_required": false,
-      "wipe_required": false,
-      "changelog": {
-        "en": "- OTA test build\n- Fixed: the in-call audio fix (callfix) now runs from the ROM itself\n- Fixed: the installed version is reported correctly; the same update is no longer offered again",
-        "tr": "- OTA test sürümü\n- Düzeltme: aramada ses düzeltmesi (callfix) artık doğrudan ROM'dan çalışıyor\n- Düzeltme: kurulu sürüm doğru bildiriliyor; aynı güncelleme tekrar önerilmiyor"
       }
     }
   ],
